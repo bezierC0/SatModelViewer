@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\utility">
+      <UniqueIdentifier>{8a730d7a-45ea-4ff7-9697-fa7a746a69f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\utility\json">
+      <UniqueIdentifier>{e6b9d079-a2b2-4fa3-bd47-e1b7c6cb6ee8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModelViewer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewerDoc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewerView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CAvroView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTreeEntity.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AcisLib.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLBaseView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLExtFuncs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLPickView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLTrackView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTreeAvro.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogAvro.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLJText.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogAvroProperty.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogLookAt.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogShapeFacePlane.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogShapeFaceCone.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogEntityProperty.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogShapeEdgeStraight.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogShapePoint.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\json\json11.hpp">
+      <Filter>ソース ファイル\utility\json</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\json\json11util.hpp">
+      <Filter>ソース ファイル\utility\json</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogApiSubtract.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CJsonView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CViewTreeJson.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ModelViewer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewerDoc.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewerView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CAvroView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTreeEntity.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AcisLib.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadStlFile.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLExtFuncs.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLPickView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLTrackView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLBaseView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="unlock_license.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTreeAvro.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogAvro.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLJText.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogAvroProperty.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogLookAt.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogShapeFacePlane.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogShapeFaceCone.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogEntityProperty.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogShapeEdgeStraight.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogShapePoint.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\json\json11.cpp">
+      <Filter>ソース ファイル\utility\json</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogApiSubtract.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CJsonView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CViewTreeJson.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="setting.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ModelViewer.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\userimages.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\ModelViewerDoc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\ModelViewer.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ModelViewer.rc2">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>
